@@ -10,9 +10,18 @@
 		204C490527D10878003F7B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C490427D10878003F7B7B /* AppDelegate.swift */; };
 		204C490727D10878003F7B7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C490627D10878003F7B7B /* SceneDelegate.swift */; };
 		204C490927D10878003F7B7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C490827D10878003F7B7B /* ViewController.swift */; };
-		204C490C27D10878003F7B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204C490A27D10878003F7B7B /* Main.storyboard */; };
 		204C490E27D10879003F7B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204C490D27D10879003F7B7B /* Assets.xcassets */; };
 		204C491127D10879003F7B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204C490F27D10879003F7B7B /* LaunchScreen.storyboard */; };
+		204C491B27D10B26003F7B7B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C491A27D10B26003F7B7B /* CategoryCell.swift */; };
+		204C491F27D10EC4003F7B7B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C491E27D10EC4003F7B7B /* CollectionViewCell.swift */; };
+		204C492127D118BC003F7B7B /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C492027D118BC003F7B7B /* BannerCell.swift */; };
+		20AF7BAF27D1F42200208743 /* DiscountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF7BAE27D1F42200208743 /* DiscountCell.swift */; };
+		20AF7BB327D1FD9500208743 /* DiscountBannerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF7BB227D1FD9500208743 /* DiscountBannerHeader.swift */; };
+		20AF7BB527D2346C00208743 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF7BB427D2346C00208743 /* TabBarController.swift */; };
+		20AF7BB727D2354E00208743 /* TabBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF7BB627D2354E00208743 /* TabBarCollectionViewCell.swift */; };
+		20BEF9B127D77676005C49DE /* RecommendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BEF9B027D77676005C49DE /* RecommendCell.swift */; };
+		20BEF9B527D79241005C49DE /* HeaderTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BEF9B427D79241005C49DE /* HeaderTabBarView.swift */; };
+		20BEF9B727D88D6C005C49DE /* LastDiscountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BEF9B627D88D6C005C49DE /* LastDiscountCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +29,19 @@
 		204C490427D10878003F7B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		204C490627D10878003F7B7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		204C490827D10878003F7B7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		204C490B27D10878003F7B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		204C490D27D10879003F7B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204C491027D10879003F7B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		204C491227D10879003F7B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204C491A27D10B26003F7B7B /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = /Users/jojaeyeong/Desktop/swift/baemin3/baemin3/CategoryCell.swift; sourceTree = "<absolute>"; };
+		204C491E27D10EC4003F7B7B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		204C492027D118BC003F7B7B /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		20AF7BAE27D1F42200208743 /* DiscountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCell.swift; sourceTree = "<group>"; };
+		20AF7BB227D1FD9500208743 /* DiscountBannerHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountBannerHeader.swift; sourceTree = "<group>"; };
+		20AF7BB427D2346C00208743 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		20AF7BB627D2354E00208743 /* TabBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		20BEF9B027D77676005C49DE /* RecommendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCell.swift; sourceTree = "<group>"; };
+		20BEF9B427D79241005C49DE /* HeaderTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTabBarView.swift; sourceTree = "<group>"; };
+		20BEF9B627D88D6C005C49DE /* LastDiscountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastDiscountCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +74,22 @@
 		204C490327D10878003F7B7B /* baemin3 */ = {
 			isa = PBXGroup;
 			children = (
+				20AF7BB427D2346C00208743 /* TabBarController.swift */,
+				20AF7BAE27D1F42200208743 /* DiscountCell.swift */,
+				204C492027D118BC003F7B7B /* BannerCell.swift */,
 				204C490427D10878003F7B7B /* AppDelegate.swift */,
 				204C490627D10878003F7B7B /* SceneDelegate.swift */,
 				204C490827D10878003F7B7B /* ViewController.swift */,
-				204C490A27D10878003F7B7B /* Main.storyboard */,
 				204C490D27D10879003F7B7B /* Assets.xcassets */,
 				204C490F27D10879003F7B7B /* LaunchScreen.storyboard */,
 				204C491227D10879003F7B7B /* Info.plist */,
+				204C491A27D10B26003F7B7B /* CategoryCell.swift */,
+				204C491E27D10EC4003F7B7B /* CollectionViewCell.swift */,
+				20AF7BB227D1FD9500208743 /* DiscountBannerHeader.swift */,
+				20AF7BB627D2354E00208743 /* TabBarCollectionViewCell.swift */,
+				20BEF9B027D77676005C49DE /* RecommendCell.swift */,
+				20BEF9B427D79241005C49DE /* HeaderTabBarView.swift */,
+				20BEF9B627D88D6C005C49DE /* LastDiscountCell.swift */,
 			);
 			path = baemin3;
 			sourceTree = "<group>";
@@ -77,6 +104,7 @@
 				204C48FD27D10878003F7B7B /* Sources */,
 				204C48FE27D10878003F7B7B /* Frameworks */,
 				204C48FF27D10878003F7B7B /* Resources */,
+				20BEF9B827D986F3005C49DE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -127,11 +155,30 @@
 			files = (
 				204C491127D10879003F7B7B /* LaunchScreen.storyboard in Resources */,
 				204C490E27D10879003F7B7B /* Assets.xcassets in Resources */,
-				204C490C27D10878003F7B7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20BEF9B827D986F3005C49DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nPATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		204C48FD27D10878003F7B7B /* Sources */ = {
@@ -139,22 +186,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				204C490927D10878003F7B7B /* ViewController.swift in Sources */,
+				20BEF9B727D88D6C005C49DE /* LastDiscountCell.swift in Sources */,
 				204C490527D10878003F7B7B /* AppDelegate.swift in Sources */,
+				204C491F27D10EC4003F7B7B /* CollectionViewCell.swift in Sources */,
+				20AF7BB527D2346C00208743 /* TabBarController.swift in Sources */,
+				20BEF9B127D77676005C49DE /* RecommendCell.swift in Sources */,
+				20AF7BAF27D1F42200208743 /* DiscountCell.swift in Sources */,
+				204C491B27D10B26003F7B7B /* CategoryCell.swift in Sources */,
+				20BEF9B527D79241005C49DE /* HeaderTabBarView.swift in Sources */,
+				20AF7BB727D2354E00208743 /* TabBarCollectionViewCell.swift in Sources */,
+				20AF7BB327D1FD9500208743 /* DiscountBannerHeader.swift in Sources */,
 				204C490727D10878003F7B7B /* SceneDelegate.swift in Sources */,
+				204C492127D118BC003F7B7B /* BannerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		204C490A27D10878003F7B7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				204C490B27D10878003F7B7B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		204C490F27D10879003F7B7B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +343,6 @@
 				INFOPLIST_FILE = baemin3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +370,6 @@
 				INFOPLIST_FILE = baemin3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
